@@ -1,10 +1,10 @@
-# RxSwiftsdsd
+# RxSwift
 This repo for test rxswift
 
 # Observable Sequences
+
 exampleOf("just") {
     let observable = Observable.just("Hello, world!")
-    
     observable.subscribe { (event: Event<String>) in
         print(event)
     }
